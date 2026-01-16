@@ -1,0 +1,5 @@
+{
+  "name": "Zestd - Instant YouTube Transcripts",
+  "description": "A high-performance utility for extracting, analyzing, and exporting YouTube transcripts with millisecond precision and AI-powered summaries.",
+  "requestFramePermissions": []
+}
