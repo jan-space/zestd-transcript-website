@@ -1,6 +1,6 @@
 
-import { YOUTUBE_ID_REGEX } from '../constants';
-import { TranscriptItem } from '../types';
+import { YOUTUBE_ID_REGEX } from '../constants.ts';
+import { TranscriptItem } from '../types.ts';
 
 /**
  * Extract video ID from various YouTube URL formats including new si parameter.

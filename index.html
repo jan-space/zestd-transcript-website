@@ -9,6 +9,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Fira+Code:wght@300;400;500&display=swap" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
     <script>
+        // Shim process.env for browser compatibility
+        window.process = { env: { API_KEY: "" } };
+        
         tailwind.config = {
             darkMode: "class",
             theme: {
@@ -108,5 +111,6 @@
 </head>
 <body class="bg-background-dark text-[#d6dbe0] min-h-screen">
     <div id="root"></div>
+    <script type="module" src="index.tsx"></script>
 </body>
 </html>

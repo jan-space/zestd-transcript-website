@@ -1,6 +1,6 @@
 
 import React, { useEffect, useRef } from 'react';
-import { ExtractionState, TranscriptItem } from '../types';
+import { ExtractionState, TranscriptItem } from '../types.ts';
 
 interface TerminalPanelProps {
   state: ExtractionState;

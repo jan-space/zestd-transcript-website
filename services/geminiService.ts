@@ -1,6 +1,6 @@
 
 import { GoogleGenAI } from "@google/genai";
-import { TranscriptItem } from "../types";
+import { TranscriptItem } from "../types.ts";
 
 export const getGeminiSummary = async (transcript: TranscriptItem[]): Promise<string> => {
   const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });

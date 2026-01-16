@@ -1,10 +1,10 @@
 
 import React, { useState, useCallback } from 'react';
-import { LANGUAGES } from './constants';
-import { ExtractionState } from './types';
-import { extractVideoId, fetchYouTubeTranscript } from './services/youtubeService';
-import { getGeminiSummary } from './services/geminiService';
-import TerminalPanel from './components/TerminalPanel';
+import { LANGUAGES } from './constants.ts';
+import { ExtractionState } from './types.ts';
+import { extractVideoId, fetchYouTubeTranscript } from './services/youtubeService.ts';
+import { getGeminiSummary } from './services/geminiService.ts';
+import TerminalPanel from './components/TerminalPanel.tsx';
 
 const App: React.FC = () => {
   const [url, setUrl] = useState('');
